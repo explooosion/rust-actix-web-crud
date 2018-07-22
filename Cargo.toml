@@ -1,0 +1,10 @@
+[package]
+name = "web-example"
+version = "0.1.0"
+authors = ["Robby <ta7382@gmail.com>"]
+
+[dependencies] 
+actix = "0.7.1"
+actix-web = { version="^0.7", features=["tls", "alpn", "brotli", "flate2-c", "flate2-rust"], default-features = false }
+serde = "1.0"
+serde_derive = "1.0"
